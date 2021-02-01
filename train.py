@@ -45,6 +45,6 @@ print("")
 print("Training accuracy: {}".format(
     dlib.test_simple_object_detector(path, "detector.svm")))
 
-if test_path is not None :
+if sys.argv[2] is not None :
     print("Testing accuracy: {}".format(
     dlib.test_simple_object_detector(test_path, "detector.svm")))
