@@ -48,6 +48,7 @@ This project used a technique based on [Histograms of oriented gradients for hum
 
 
 # TO DO
++ add image about img tool & visualization 
 + add ver. C++ 
 
 # Reference 
