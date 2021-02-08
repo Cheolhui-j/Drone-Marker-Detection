@@ -27,11 +27,11 @@ The training data was annotated using 'Dlib Imglab Tool' from the following [lin
 
       python3 train.py
 
-      usage: train.py  [--train_db_dir TRAIN_DB_DIR] [--test_db_dir TEST_DB_DIR]
+      usage: train.py  [--train_db_dir TRAIN_DB_DIR] [--valid_db_dir VALID_DB_DIR]
 
       optional arguments:
             --train_db_dir TRAIN_DB_DIR Directory where training data is stored
-            --test_db_dir TEST_DB_DIR Directory where testing data is stored
+            --valid_db_dir VALID_DB_DIR Directory where validation data is stored
       
 + Test 
 
@@ -41,7 +41,7 @@ The training data was annotated using 'Dlib Imglab Tool' from the following [lin
 
       optional arguments:
             --test_dir Test_DIR Directory where testing file is stored
-            --test_type TEST_TYPE Type what testing data is 
+            --test_type TEST_TYPE Type what testing data is image(.jpg) or video(.mp4)
 
 
 # Visualization
