@@ -16,3 +16,19 @@ This project used a technique based on [Histograms of oriented gradients for hum
 + Collect HOG's over detection window 
 + Train Linear SVM
 + Marker / Non-Marker classification
+
+# How to use
+
++ Train 
+
+''' 
+
+python3 train.py
+
+usage: train.py  [--train_db_dir TRAIN_DB_DIR] [--test_db_dir TEST_DB_DIR]
+
+optional arguments:
+      --train_db_dir TRAIN_DB_DIR Directory where training data is stored
+      --test_db_dir TEST_DB_DIR Directory where testing data is stored
+      
+'''
