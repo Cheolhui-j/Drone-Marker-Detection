@@ -21,7 +21,7 @@ This project used a technique based on [Histograms of oriented gradients for hum
 
 + Annotation
 
-The training data was annotated using 'Dlib Imglab Tool' from the following [link](https://github.com/davisking/dlib/tree/master/tools/imglab).
+   The training data was annotated using 'Dlib Imglab Tool' from the following [link](https://github.com/davisking/dlib/tree/master/tools/imglab).
 
 + Train 
 
