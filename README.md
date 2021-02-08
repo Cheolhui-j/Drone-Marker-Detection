@@ -19,16 +19,36 @@ This project used a technique based on [Histograms of oriented gradients for hum
 
 # How to use
 
++ Annotation
+
+The training data was annotated using 'Dlib Imglab Tool' from the following [link](https://github.com/davisking/dlib/tree/master/tools/imglab).
+
 + Train 
 
-''' 
+      python3 train.py
 
-python3 train.py
+      usage: train.py  [--train_db_dir TRAIN_DB_DIR] [--test_db_dir TEST_DB_DIR]
 
-usage: train.py  [--train_db_dir TRAIN_DB_DIR] [--test_db_dir TEST_DB_DIR]
-
-optional arguments:
-      --train_db_dir TRAIN_DB_DIR Directory where training data is stored
-      --test_db_dir TEST_DB_DIR Directory where testing data is stored
+      optional arguments:
+            --train_db_dir TRAIN_DB_DIR Directory where training data is stored
+            --test_db_dir TEST_DB_DIR Directory where testing data is stored
       
-'''
++ Test 
+
+      python3 main.py
+
+      usage: train.py  [--test_dir Test_DIR] [--test_type TEST_TYPE]
+
+      optional arguments:
+            --test_dir Test_DIR Directory where testing file is stored
+            --test_type TEST_TYPE Type what testing data is 
+
+
+# Visualization
+
+
+# TO DO
++ add ver. C++ 
+
+# Reference 
+Dlib example code [link](http://dlib.net/)
