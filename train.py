@@ -4,12 +4,12 @@ import glob
 
 import dlib
 
-if len(sys.argv) != 2:
+if len(sys.argv) < 2:
     print(
-        "Give the path to the examples/faces directory as the argument to this "
+        "Give the path to the train dataset & test dataset directory as the argument to this "
         "program. For example, if you are in the python_examples folder then "
         "execute this program by running:\n"
-        "    ./train_object_detector.py ../examples/faces")
+        "    ./train.py ../TRAIN_DATA_PATH ../TEST_DATA_PATH")
     exit()
 path = sys.argv[1]
 if sys.argv[2] is not None:
