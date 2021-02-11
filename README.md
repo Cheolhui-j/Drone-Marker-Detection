@@ -17,6 +17,13 @@ This project used a technique based on [Histograms of oriented gradients for hum
 + Train Linear SVM
 + Marker / Non-Marker classification
 
+# Requirement
+
++ Dlib
++ Numpy
++ Opencv-python
++ imutils
+
 # How to use
 
 + Annotation
