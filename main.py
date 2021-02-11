@@ -18,8 +18,8 @@ file_dir = sys.argv[1]
 file_type = sys.argv[2]
 
 # if file is image, create test image list
-if file_type == 'jpg':
-    if file_dir.endswith('.jpg'):
+if file_type == 'image':
+    if file_dir.endswith('.jpg') or file_dir.endswith('.png'):
         file_list = [file_dir]
     else :
         file_list = os.listdir(file_dir)
@@ -30,7 +30,7 @@ if file_type == 'jpg':
 # if file is video, create Video capture source
 elif file_type == 'mp4':
     cap= cv2.VideoCapture(file_dir) 
-# if file is neither jpg nor mp4, terminate program
+# if file is neither image nor mp4, terminate program
 else :
     print('Incorrect file is inserted!!')
     sys.exit()
@@ -56,7 +56,7 @@ rects_count = 0
 win = dlib.image_window()
 
 # Load image from file
-if file_type == 'jpg':
+if file_type == 'image':
     for i in file_list:
         path = i
         image = cv2.imread(path)
@@ -100,8 +100,8 @@ elif file_type == 'mp4':
             break
 
         # Resize image for size control
-        image = imutils.resize(image, width=1280, height=960)
-        #image = imutils.resize(image, width=640, height=480)
+        #image = imutils.resize(image, width=1280, height=960)
+        image = imutils.resize(image, width=640, height=480)
 
         # if use one detector, use line below. 
         # but default is multiple. 
