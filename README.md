@@ -42,7 +42,7 @@ This project used a technique based on [Histograms of oriented gradients for hum
       usage: train.py  [--test_dir Test_DIR] [--test_type TEST_TYPE]
 
       optional arguments:
-            --test_dir Test_DIR Directory where testing file is stored
+            --test_dir TEST_DIR Directory where testing file is stored
             --test_type TEST_TYPE Type what testing data is image(.jpg) or video(.mp4)
 
 
