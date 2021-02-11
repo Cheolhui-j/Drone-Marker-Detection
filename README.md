@@ -49,9 +49,11 @@ This project used a technique based on [Histograms of oriented gradients for hum
 # Visualization
 
 + Maker Histogram of Gradient
+
 ![Marker_HOG](./example/Marker_HOG.png)
 
 + Marker Detection Result
+
 ![MMarker Detection Result](./example/Marker_detection_result.png)
 
 # TO DO
