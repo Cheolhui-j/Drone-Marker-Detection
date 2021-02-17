@@ -46,7 +46,7 @@ This project used a technique based on [Histograms of oriented gradients for hum
 
       python3 main.py
 
-      usage: train.py  [--test_dir Test_DIR] [--test_type TEST_TYPE]
+      usage: main.py  [--test_dir Test_DIR] [--test_type TEST_TYPE]
 
       optional arguments:
             --test_dir TEST_DIR Directory where testing file is stored
